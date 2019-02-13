@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3752A0B11EAF4DA1002B5913 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3752A0AD1EAF4DA1002B5913 /* SVIndefiniteAnimatedView.m */; };
+		3752A0B21EAF4DA1002B5913 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3752A0AE1EAF4DA1002B5913 /* SVProgressHUD.bundle */; };
+		3752A0B31EAF4DA1002B5913 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3752A0B01EAF4DA1002B5913 /* SVProgressHUD.m */; };
+		37644FD91EA65DB4004C997B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37644FD81EA65DB4004C997B /* main.m */; };
+		37644FDC1EA65DB4004C997B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37644FDB1EA65DB4004C997B /* AppDelegate.m */; };
+		37644FDF1EA65DB4004C997B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37644FDE1EA65DB4004C997B /* ViewController.m */; };
+		37644FE21EA65DB4004C997B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37644FE01EA65DB4004C997B /* Main.storyboard */; };
+		37644FE41EA65DB4004C997B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37644FE31EA65DB4004C997B /* Assets.xcassets */; };
+		37644FE71EA65DB4004C997B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37644FE51EA65DB4004C997B /* LaunchScreen.storyboard */; };
+		37644FF01EA65DE7004C997B /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37644FEF1EA65DE7004C997B /* CoreBluetooth.framework */; };
+		376450041EA6609D004C997B /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 37644FF31EA6609D004C997B /* BabyBluetooth.m */; };
+		376450051EA6609D004C997B /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 37644FF51EA6609D004C997B /* BabyCallback.m */; };
+		376450061EA6609D004C997B /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37644FF71EA6609D004C997B /* BabyCentralManager.m */; };
+		376450071EA6609D004C997B /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 37644FF91EA6609D004C997B /* BabyDefine.m */; };
+		376450081EA6609D004C997B /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 37644FFB1EA6609D004C997B /* BabyOptions.m */; };
+		376450091EA6609D004C997B /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37644FFD1EA6609D004C997B /* BabyPeripheralManager.m */; };
+		3764500A1EA6609D004C997B /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = 37644FFF1EA6609D004C997B /* BabyRhythm.m */; };
+		3764500B1EA6609D004C997B /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 376450011EA6609D004C997B /* BabySpeaker.m */; };
+		3764500C1EA6609D004C997B /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = 376450031EA6609D004C997B /* BabyToy.m */; };
+		37D789E81EB6D3D1006FA1E2 /* Archive.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D789E71EB6D3D1006FA1E2 /* Archive.m */; };
+		37FEE3241EB0998500858650 /* BaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FEE3231EB0998500858650 /* BaseButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3752A0AC1EAF4DA1002B5913 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		3752A0AD1EAF4DA1002B5913 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		3752A0AE1EAF4DA1002B5913 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		3752A0AF1EAF4DA1002B5913 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		3752A0B01EAF4DA1002B5913 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		37644FD41EA65DB4004C997B /* BluetoothPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37644FD81EA65DB4004C997B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37644FDA1EA65DB4004C997B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37644FDB1EA65DB4004C997B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37644FDD1EA65DB4004C997B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37644FDE1EA65DB4004C997B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37644FE11EA65DB4004C997B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37644FE31EA65DB4004C997B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37644FE61EA65DB4004C997B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37644FE81EA65DB4004C997B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37644FEF1EA65DE7004C997B /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		37644FF21EA6609D004C997B /* BabyBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyBluetooth.h; sourceTree = "<group>"; };
+		37644FF31EA6609D004C997B /* BabyBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyBluetooth.m; sourceTree = "<group>"; };
+		37644FF41EA6609D004C997B /* BabyCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCallback.h; sourceTree = "<group>"; };
+		37644FF51EA6609D004C997B /* BabyCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCallback.m; sourceTree = "<group>"; };
+		37644FF61EA6609D004C997B /* BabyCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCentralManager.h; sourceTree = "<group>"; };
+		37644FF71EA6609D004C997B /* BabyCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCentralManager.m; sourceTree = "<group>"; };
+		37644FF81EA6609D004C997B /* BabyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyDefine.h; sourceTree = "<group>"; };
+		37644FF91EA6609D004C997B /* BabyDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyDefine.m; sourceTree = "<group>"; };
+		37644FFA1EA6609D004C997B /* BabyOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyOptions.h; sourceTree = "<group>"; };
+		37644FFB1EA6609D004C997B /* BabyOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyOptions.m; sourceTree = "<group>"; };
+		37644FFC1EA6609D004C997B /* BabyPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyPeripheralManager.h; sourceTree = "<group>"; };
+		37644FFD1EA6609D004C997B /* BabyPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyPeripheralManager.m; sourceTree = "<group>"; };
+		37644FFE1EA6609D004C997B /* BabyRhythm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyRhythm.h; sourceTree = "<group>"; };
+		37644FFF1EA6609D004C997B /* BabyRhythm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyRhythm.m; sourceTree = "<group>"; };
+		376450001EA6609D004C997B /* BabySpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabySpeaker.h; sourceTree = "<group>"; };
+		376450011EA6609D004C997B /* BabySpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabySpeaker.m; sourceTree = "<group>"; };
+		376450021EA6609D004C997B /* BabyToy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyToy.h; sourceTree = "<group>"; };
+		376450031EA6609D004C997B /* BabyToy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyToy.m; sourceTree = "<group>"; };
+		37D789E61EB6D3D1006FA1E2 /* Archive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archive.h; sourceTree = "<group>"; };
+		37D789E71EB6D3D1006FA1E2 /* Archive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Archive.m; sourceTree = "<group>"; };
+		37FEE3221EB0998500858650 /* BaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseButton.h; sourceTree = "<group>"; };
+		37FEE3231EB0998500858650 /* BaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37644FD11EA65DB4004C997B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37644FF01EA65DE7004C997B /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		371382191EB19B14008446FD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				37FEE3221EB0998500858650 /* BaseButton.h */,
+				37FEE3231EB0998500858650 /* BaseButton.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		3752A0B41EAF4DAB002B5913 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3752A0AC1EAF4DA1002B5913 /* SVIndefiniteAnimatedView.h */,
+				3752A0AD1EAF4DA1002B5913 /* SVIndefiniteAnimatedView.m */,
+				3752A0AE1EAF4DA1002B5913 /* SVProgressHUD.bundle */,
+				3752A0AF1EAF4DA1002B5913 /* SVProgressHUD.h */,
+				3752A0B01EAF4DA1002B5913 /* SVProgressHUD.m */,
+			);
+			name = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		37644FCB1EA65DB4004C997B = {
+			isa = PBXGroup;
+			children = (
+				37644FD61EA65DB4004C997B /* BluetoothPay */,
+				37644FD51EA65DB4004C997B /* Products */,
+				37644FEE1EA65DE7004C997B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37644FD51EA65DB4004C997B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37644FD41EA65DB4004C997B /* BluetoothPay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37644FD61EA65DB4004C997B /* BluetoothPay */ = {
+			isa = PBXGroup;
+			children = (
+				371382191EB19B14008446FD /* Base */,
+				3752A0B41EAF4DAB002B5913 /* SVProgressHUD */,
+				37644FF11EA6609D004C997B /* BabyBluetooth */,
+				37644FDA1EA65DB4004C997B /* AppDelegate.h */,
+				37644FDB1EA65DB4004C997B /* AppDelegate.m */,
+				37644FDD1EA65DB4004C997B /* ViewController.h */,
+				37644FDE1EA65DB4004C997B /* ViewController.m */,
+				37D789E61EB6D3D1006FA1E2 /* Archive.h */,
+				37D789E71EB6D3D1006FA1E2 /* Archive.m */,
+				37644FE01EA65DB4004C997B /* Main.storyboard */,
+				37644FE31EA65DB4004C997B /* Assets.xcassets */,
+				37644FE51EA65DB4004C997B /* LaunchScreen.storyboard */,
+				37644FE81EA65DB4004C997B /* Info.plist */,
+				37644FD71EA65DB4004C997B /* Supporting Files */,
+			);
+			path = BluetoothPay;
+			sourceTree = "<group>";
+		};
+		37644FD71EA65DB4004C997B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37644FD81EA65DB4004C997B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37644FEE1EA65DE7004C997B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37644FEF1EA65DE7004C997B /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37644FF11EA6609D004C997B /* BabyBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				37644FF21EA6609D004C997B /* BabyBluetooth.h */,
+				37644FF31EA6609D004C997B /* BabyBluetooth.m */,
+				37644FF41EA6609D004C997B /* BabyCallback.h */,
+				37644FF51EA6609D004C997B /* BabyCallback.m */,
+				37644FF61EA6609D004C997B /* BabyCentralManager.h */,
+				37644FF71EA6609D004C997B /* BabyCentralManager.m */,
+				37644FF81EA6609D004C997B /* BabyDefine.h */,
+				37644FF91EA6609D004C997B /* BabyDefine.m */,
+				37644FFA1EA6609D004C997B /* BabyOptions.h */,
+				37644FFB1EA6609D004C997B /* BabyOptions.m */,
+				37644FFC1EA6609D004C997B /* BabyPeripheralManager.h */,
+				37644FFD1EA6609D004C997B /* BabyPeripheralManager.m */,
+				37644FFE1EA6609D004C997B /* BabyRhythm.h */,
+				37644FFF1EA6609D004C997B /* BabyRhythm.m */,
+				376450001EA6609D004C997B /* BabySpeaker.h */,
+				376450011EA6609D004C997B /* BabySpeaker.m */,
+				376450021EA6609D004C997B /* BabyToy.h */,
+				376450031EA6609D004C997B /* BabyToy.m */,
+			);
+			name = BabyBluetooth;
+			path = objc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37644FD31EA65DB4004C997B /* BluetoothPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37644FEB1EA65DB4004C997B /* Build configuration list for PBXNativeTarget "BluetoothPay" */;
+			buildPhases = (
+				37644FD01EA65DB4004C997B /* Sources */,
+				37644FD11EA65DB4004C997B /* Frameworks */,
+				37644FD21EA65DB4004C997B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothPay;
+			productName = BluetoothPay;
+			productReference = 37644FD41EA65DB4004C997B /* BluetoothPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37644FCC1EA65DB4004C997B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "zhao qinglei";
+				TargetAttributes = {
+					37644FD31EA65DB4004C997B = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = YW4JZBBK2F;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 37644FCF1EA65DB4004C997B /* Build configuration list for PBXProject "BluetoothPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37644FCB1EA65DB4004C997B;
+			productRefGroup = 37644FD51EA65DB4004C997B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37644FD31EA65DB4004C997B /* BluetoothPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37644FD21EA65DB4004C997B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37644FE71EA65DB4004C997B /* LaunchScreen.storyboard in Resources */,
+				37644FE41EA65DB4004C997B /* Assets.xcassets in Resources */,
+				37644FE21EA65DB4004C997B /* Main.storyboard in Resources */,
+				3752A0B21EAF4DA1002B5913 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37644FD01EA65DB4004C997B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376450071EA6609D004C997B /* BabyDefine.m in Sources */,
+				3752A0B11EAF4DA1002B5913 /* SVIndefiniteAnimatedView.m in Sources */,
+				3764500A1EA6609D004C997B /* BabyRhythm.m in Sources */,
+				3752A0B31EAF4DA1002B5913 /* SVProgressHUD.m in Sources */,
+				37644FDF1EA65DB4004C997B /* ViewController.m in Sources */,
+				376450081EA6609D004C997B /* BabyOptions.m in Sources */,
+				37D789E81EB6D3D1006FA1E2 /* Archive.m in Sources */,
+				37644FDC1EA65DB4004C997B /* AppDelegate.m in Sources */,
+				376450091EA6609D004C997B /* BabyPeripheralManager.m in Sources */,
+				376450041EA6609D004C997B /* BabyBluetooth.m in Sources */,
+				376450061EA6609D004C997B /* BabyCentralManager.m in Sources */,
+				3764500B1EA6609D004C997B /* BabySpeaker.m in Sources */,
+				376450051EA6609D004C997B /* BabyCallback.m in Sources */,
+				3764500C1EA6609D004C997B /* BabyToy.m in Sources */,
+				37FEE3241EB0998500858650 /* BaseButton.m in Sources */,
+				37644FD91EA65DB4004C997B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37644FE01EA65DB4004C997B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37644FE11EA65DB4004C997B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37644FE51EA65DB4004C997B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37644FE61EA65DB4004C997B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37644FE91EA65DB4004C997B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37644FEA1EA65DB4004C997B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37644FEC1EA65DB4004C997B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BluetoothPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.ble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		37644FED1EA65DB4004C997B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BluetoothPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.ble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37644FCF1EA65DB4004C997B /* Build configuration list for PBXProject "BluetoothPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37644FE91EA65DB4004C997B /* Debug */,
+				37644FEA1EA65DB4004C997B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37644FEB1EA65DB4004C997B /* Build configuration list for PBXNativeTarget "BluetoothPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37644FEC1EA65DB4004C997B /* Debug */,
+				37644FED1EA65DB4004C997B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37644FCC1EA65DB4004C997B /* Project object */;
+}
